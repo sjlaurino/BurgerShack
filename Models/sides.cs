@@ -1,8 +1,8 @@
 namespace burgerShack.Models
 {
-  class Sides : Items
+  class Side : Items
   {
-    public Sides(string name, string description, float price) : base(name, description, price)
+    public Side(string name, string description, float price) : base(name, description, price)
     {
     }
   }
